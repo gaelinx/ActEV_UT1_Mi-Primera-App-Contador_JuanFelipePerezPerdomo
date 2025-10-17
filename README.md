@@ -1,50 +1,57 @@
-# Welcome to your Expo app 👋
+# Actividad Evaluativa UT1 Mi Primera App Contador 
+Autor: Juan Felipe Perez Perdomo
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+Fecha: 17/10/2025
 
-1. Install dependencies
 
+Version del Programa - Expo 6.1.12 npm 11.6.2
+
+## Tecnologia Elegida
+
+React Native, Usando Expo
+
+## Configuracion de Entorno y Ejecucion
+
+- Tener Instalado Node.js y Expo
+- Al Clonar el Repositorio en tu Dispositivo debes tener en cuenta que las dependencias de expo no estaran habilitadas, para ello tienes que ir a la carpeta donde se encuentra el proyecto y hacer el comando
    ```bash
    npm install
    ```
-
-2. Start the app
-
+- Luego de ello ya podras ejecutar el proyecto normalmente con
    ```bash
    npx expo start
    ```
+- El Proyecto fue probado tanto en un movil fisico con Expo Go (Android 13) y desde el emulador de Android Studio (emulador de Android 14)
 
-In the output, you'll find options to open the app in a
+## Estructura del proyecto
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+El Proyecto cuenta con la estructura por defecto cuando usas
+   ```bash
+    npx create-expo-app 
+   ```
+y luego reseteas el proyecto con
+   ```bash
+   npm run reset-project
+   ```
+Por lo que solamente cuenta con la Carpeta app con un index.tsx donde esta el codigo de la app y de resto las configuraciones por defecto de la aplicacion de expo que no estan en uso, como seria los asssets, app.json, etc.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Perfil de despliegue 
 
-## Get a fresh project
+Se Uso el SDK mas reciente de la que dispone el android studio en este momento, mas un emulador de android (pixel 8 API 34)
 
-When you're ready, run:
+## Funcionamiento de la app 
 
-```bash
-npm run reset-project
-```
+https://github.com/user-attachments/assets/406ed16d-1980-4bb3-955d-ed7a27b63578
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
+Es una App de Contador, tiene 3 botones interactuables para incrementar, decrementar o resetear el contador respectivamente, hay tres metas a alcanzar, al llegar a el numero 10, al llegar al numero 20 y al llegar al numero -5, estas metas envian una mensaje
+de Alert que felicita a el usuario por llegar a ellas
 
-To learn more about developing your project with Expo, look at the following resources:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Conclusión y limitaciones
 
-## Join the community
+Esto es una toma de contacto de Expo creada por un principiante en el desarrollo movil, no hay muchas conclusiones que puedo sacar mas que en lo personal Expo me a parecido mucho mas eficiente, intuitivo y comodo que JetPack Compose y disfrute mucho el desarrollar esta aplicacion, tal vez por ya saber de base JavaScript o por que sencillamente es bastante satisfactorio ver como se hacen los cambios en la aplicacion a tiempo real, ahora es una aplicacion demasiado basica y se puede mejorar de muchas formas, ademas de que no termino de controlar los useState y es una aplicacion muy basica que tampoco da para mucho, pero como experimentacion fue bastante gratificante.
 
-Join our community of developers creating universal apps.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
